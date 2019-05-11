@@ -70,8 +70,9 @@ docker-compose up
 ```
 
 #### 参考
-    * Forge installerを環境変数に指定しているので、自動的にインストールされる
-        * [dockerfiles/minecraft-server at master · itzg/dockerfiles](https://github.com/itzg/dockerfiles/tree/master/minecraft-server#running-a-forge-server "dockerfiles/minecraft-server at master · itzg/dockerfiles")
+
+* Forge installerを環境変数に指定しているので、自動的にインストールされる
+    * [dockerfiles/minecraft-server at master · itzg/dockerfiles](https://github.com/itzg/dockerfiles/tree/master/minecraft-server#running-a-forge-server "dockerfiles/minecraft-server at master · itzg/dockerfiles")
 
 
 ## Memo
