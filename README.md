@@ -46,7 +46,9 @@ Windowsを想定
         * `<ゲームディレクトリ>\mods\aether_legacy-1.12.2-v1.4.4.jar`
         * デフォルトでは下記の位置？
             * `%APPDATA%\Roaming\.minecraft\<forge-version>\mods\aether_legacy-1.12.2-v1.4.4.jar`
-* Minecraft起動
+* Minecraft Launcherを起動
+* プロファイルtestを選択し、Minecraft本体を起動
+* タイトル画面でModsボタンを押下し、Aether modが読み込まれていることを確認
 
 
 #### 参考
