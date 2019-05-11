@@ -40,8 +40,12 @@ Windowsを想定
 * Minecraftを終了
 * Modのインストール
     * Aether Legacy 1.12.2 modを  [Aether Legacy 1.12.2-v1.4.4 - Files - The Aether - Mods - Projects - Minecraft CurseForge](https://minecraft.curseforge.com/projects/the-aether/files/2698950 "Aether Legacy 1.12.2-v1.4.4 - Files - The Aether - Mods - Projects - Minecraft CurseForge") からダウンロード
+    * `<ゲームディレクトリ>`を下記の手順で確認
+        * Minecraft Launcher起動 > 「起動オプション」タブ > test (任意の名前) > ゲームディレクトリ
     * 下記パスとなるように`aether_legacy-1.12.2-v1.4.4.jar`を設置
-        * `%APPDATA%\Roaming\.minecraft\mods\aether_legacy-1.12.2-v1.4.4.jar`
+        * `<ゲームディレクトリ>\mods\aether_legacy-1.12.2-v1.4.4.jar`
+        * デフォルトでは下記の位置？
+            * `%APPDATA%\Roaming\.minecraft\<forge-version>\mods\aether_legacy-1.12.2-v1.4.4.jar`
 * Minecraft起動
 
 
