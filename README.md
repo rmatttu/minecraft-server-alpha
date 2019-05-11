@@ -69,15 +69,17 @@ mv aether_legacy-1.12.2-v1.4.4.jar data/mods/
 docker-compose up
 ```
 
+#### 参考
+    * Forge installerを環境変数に指定しているので、自動的にインストールされる
+        * [dockerfiles/minecraft-server at master · itzg/dockerfiles](https://github.com/itzg/dockerfiles/tree/master/minecraft-server#running-a-forge-server "dockerfiles/minecraft-server at master · itzg/dockerfiles")
+
 
 ## Memo
 
-aether 2 はクラッシュ頻発？orbis関連のエラーで落ちているようだった。
-どのバージョンを使用すればいいのかわからない。
-
+* Aether 2 はクラッシュ頻発？orbis関連のエラーで落ちているようだった。どのバージョンを使用すればいいのかわからない。
 * Minecraft Launcher version
     * 2.1.3674 | Tue, 23 Apr 2019 08:35:33 GMT | fafa322bd04a73d6e9d87f418eb59d929720d720
-
 * クライアント、メモリに余裕がある場合
     * JVMの引数: `-Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=64M`
+* [サーバ設定ファイル(server.properties) | minecraft.server-memo.net](https://minecraft.server-memo.net/server-properties/ "サーバ設定ファイル(server.properties) | minecraft.server-memo.net")
 
