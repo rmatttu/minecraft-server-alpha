@@ -1,0 +1,20 @@
+version: "3"
+services:
+  app:
+    container_name: minecraft-server-alpha
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
+    environment:
+      - EULA=TRUE
+      - TYPE=FORGE
+      - FORGE_INSTALLER=forge-1.12.2-14.23.5.2768-installer.jar
+    tty: true
+    stdin_open: true
+    restart: always
+
+    # debug command
+    # entrypoint: "/bin/sh -c 'tail -f /dev/null'"
+    # command: "tail -f /dev/null"
