@@ -10,13 +10,13 @@ Minecraftサーバ、nginx起動
 docker-compose up
 ```
 
-一通りmap生成後、overviewerを起動しmap viewerデータ作成
+ゲームを開始し、一通りマップ生成後、下記コマンドでoverviewerのマップデータ作成
 
 ```bash
 ./build-map.sh
 ```
 
-http://localhost:8080 にアクセスしmapを閲覧
+http://localhost:8080 にアクセスしマップを閲覧
 
 
 ## Requirements
