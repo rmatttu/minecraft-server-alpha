@@ -4,7 +4,19 @@ Minecraftインストール手順書
 
 ## Usage
 
-...
+Minecraftサーバ、nginx起動
+
+```bash
+docker-compose up
+```
+
+一通りmap生成後、overviewerを起動しmap viewerデータ作成
+
+```bash
+./build-map.sh
+```
+
+http://localhost:8080 にアクセスしmapを閲覧
 
 
 ## Requirements
@@ -12,6 +24,8 @@ Minecraftインストール手順書
 * Minecraft 1.12.2
 * forge-1.12.2-14.23.5.2768
 * Aether Legacy 1.12.2-v1.4.4
+* Minecraft overviewer
+* nginx
 * Docker version 19.03.0-beta3, build c55e026
 * docker-compose version 1.23.2, build 1110ad01
 
