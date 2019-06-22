@@ -95,6 +95,26 @@ docker-compose up
     * [dockerfiles/minecraft-server at master · itzg/dockerfiles](https://github.com/itzg/dockerfiles/tree/master/minecraft-server#running-a-forge-server "dockerfiles/minecraft-server at master · itzg/dockerfiles")
 
 
+## Backup
+
+dataを.tar.xzに固め、dropboxへアップロードします
+
+```bash
+git clone https://github.com/andreafabrizi/Dropbox-Uploader
+cd Dropbox-Uploader/
+./dropbox_uploader.sh
+```
+
+[LinuxのコマンドラインでDropboxにファイルをアップロードしてみた – bgbgbg](https://blog.bgbgbg.net/archives/2507)
+を参考にセットアップ
+
+バックアップを実行したいときに、下記スクリプトを実行
+
+```bash
+./backup.sh
+```
+
+
 ## Memo
 
 * Aether 2 はクラッシュ頻発？orbis関連のエラーで落ちているようだった。どのバージョンを使用すればいいのかわからない。
