@@ -22,18 +22,11 @@ http://localhost:8080 にアクセスしマップを閲覧
 
 ### 終了
 
-minecraftコンテナは手動で終了させる
+rcon経由で終了させる
 
 ```bash
-# 起動コンテナチェック
-docker ps
-
 # minecraftコンテナへアタッチ
-docker attach minecraft-server-alpha_mc_1
-stop
-
-# 終了
-docker-compose stop
+docker-compose exec mc rcon-cli stop
 ```
 
 ## Requirements
